@@ -94,7 +94,7 @@ Output files:
 
 Geno.out - Consists of the genotypes of sampled individuals.  Genotypes are composed of L regions consisting of 15 nucleotides.  The genotype of a region is encoded as an integer that can then be converted to a bit string (see the function bits() in the analysis file OTU-DemarkProperties-Parallel.ipynb, below).  For a single replicate the integer representation of each region is contiguously listed across individuals.  To get the genotype of an individual, partition the list into sets of length L and then convert to bits.  The function get_geno_bits() does this in the corresponding ipython notebooks (see below).
 
-Data.out - Consists of the phenotype of every 100th individual in the graph across replicates.  Used to generate figures such as the top row in fig. 4 of Griswold (in review).
+Data.out - Consists of the phenotype of every 100th individual in the graph across replicates.
 
 Pheno.out - Consists of the phenotypes of individuals in the present-day random sample of individuals from the community.
 
